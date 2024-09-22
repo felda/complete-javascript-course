@@ -1,7 +1,7 @@
 //Assignment 01- Values and Variables
 const country = "USA";
 const continent = "North America";
-const population = 333;
+let population = 333;
 console.log(country);
 console.log(continent);
 console.log(population);
@@ -18,12 +18,14 @@ console.log(typeof language);
 language = "English";
 
 //Assignment 04- Basic Operators
-console.log(population / 2);
-console.log(population + 1);
+population /= 2;
+population++;
+population *=2;
+console.log(population);
 const finlandPop = 6;
-console.log(population == finlandPop);
+console.log(population > finlandPop);
 const averagePop = 33;
-console.log(population == averagePop);
+console.log(population > averagePop);
 const description =
   country +
   " is in " +
